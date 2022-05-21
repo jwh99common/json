@@ -9,7 +9,7 @@ const data = {
 
 // Update Post
 http.put(
-https://foodbankartwork.co.uk/json/sample.json',
+'https://foodbankartwork.co.uk/json/sample.json',
 	data)
 
 // Resolving promise for response data
