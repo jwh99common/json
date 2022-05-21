@@ -17,10 +17,12 @@ async function getapi(url) {
 	}
 	show(data);
 	alert ('b');
+	return ('hello world');
 }
 // Calling that async function
 console.log (api_url);
-getapi(api_url);
+text = await getapi(api_url);
+console.log (text);
 
 // Function to hide the loader
 function hideloader() {
