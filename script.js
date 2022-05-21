@@ -5,7 +5,7 @@ const api_url =
 // Defining async function
 async function getapi(url) {
 	
-	console.log('a');
+	console.log(url);
 	// Storing response
 	const response = await fetch(url);
 	
