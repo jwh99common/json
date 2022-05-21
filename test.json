@@ -1,2 +1,4 @@
-{ "age": 29, "name": "John" }
-{ "age": 30, "name": "Joe" }
+[
+  { "age": 29, "name": "John" },
+  { "age": 30, "name": "Joe" }
+]
