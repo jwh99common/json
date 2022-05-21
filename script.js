@@ -19,6 +19,7 @@ async function getapi(url) {
 	alert ('b');
 }
 // Calling that async function
+console.log (api_url);
 getapi(api_url);
 
 // Function to hide the loader
