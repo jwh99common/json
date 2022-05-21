@@ -28,18 +28,14 @@ function show(data) {
 	let tab =
 		`<tr>
 		<th>Name</th>
-		<th>Office</th>
-		<th>Position</th>
-		<th>Salary</th>
+		<th>Age</th>
 		</tr>`;
 	
 	// Loop to access all rows
 	for (let r of data.list) {
 		tab += `<tr>
 	<td>${r.name} </td>
-	<td>${r.office}</td>
-	<td>${r.position}</td>
-	<td>${r.salary}</td>		
+	<td>${r.age}</td>
 </tr>`;
 	}
 	// Setting innerHTML as tab variable
