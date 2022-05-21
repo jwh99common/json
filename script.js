@@ -35,6 +35,8 @@ function show(data) {
 		<th>Name</th>
 		<th>Age</th>
 		</tr>`;
+	
+	
 	console.log ('c')
 	
 	// Loop to access all rows
