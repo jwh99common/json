@@ -9,7 +9,7 @@ const data = {
 
 // Update Post
 http.put(
-'https://jsonplaceholder.typicode.com/users/2',
+https://foodbankartwork.co.uk/json/sample.json',
 	data)
 
 // Resolving promise for response data
