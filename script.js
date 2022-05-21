@@ -48,5 +48,6 @@ function show(data) {
     		console.log(r.name + r.age);
 	}
 	console.log ('d');
+	document.getElementById("employees").innerHTML = tab;
 	
 }
