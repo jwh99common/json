@@ -23,7 +23,6 @@ async function getapi(url) {
 // Calling that async function
 console.log (api_url);
 getapi(api_url);
-console.log (text);
 
 // Function to hide the loader
 function hideloader() {
