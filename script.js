@@ -33,7 +33,7 @@ function show(data) {
 	
 	for(var i = 0; i < data.length; i++) {
     		var obj = data[i];
-    		console.log(obj.id);
+    		console.log(obj.name + obj.age);
 	}
 	console.log ('d');
 	
