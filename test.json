@@ -1,8 +1,4 @@
 {
-      "name": "John",
-      "age": 29
-}
-{
-      "name": "Peter",
-      "age": 30
+      name: "John",
+      age: 29
 }
