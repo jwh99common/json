@@ -10,13 +10,13 @@ async function getapi(url) {
 	
 	// Storing data in form of JSON
 	var data = await response.json();
-	alert ('a');
+	console.log ('a');
 	console.log(data);
 	if (response) {
 		hideloader();
 	}
 	show(data);
-	alert ('b');
+	console.log ('b');
 	return ('hello world');
 }
 // Calling that async function
@@ -35,7 +35,7 @@ function show(data) {
 		<th>Name</th>
 		<th>Age</th>
 		</tr>`;
-	alert ('c')
+	console.log ('c')
 	
 	// Loop to access all rows
 	for (let r of data.list) {
@@ -44,7 +44,8 @@ function show(data) {
 	<td>${r.age}</td>
 	</tr>`;
 	}
-	alert ('d');
+	console.log ('d');
 	// Setting innerHTML as tab variable
 	document.getElementById("employees").innerHTML = tab;
+	console.log ('e');
 }
