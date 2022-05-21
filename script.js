@@ -26,21 +26,14 @@ getapi(api_url);
 
 // Function to define innerHTML for HTML table
 function show(data) {
-	let tab =
-		`<tr>
-		<th>Name</th>
-		<th>Age</th>
-		</tr>`;
+	
 	
 	
 	console.log ('c')
 	
-	// Loop to access all rows
-	for (let r of data.list) {
-		tab += `<tr>
-	<td>${r.age} </td>
-	<td>${r.name}</td>
-	</tr>`;
+	for(var i = 0; i < data.length; i++) {
+    		var obj = data[i];
+    		console.log(obj.id);
 	}
 	console.log ('d');
 	
