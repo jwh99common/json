@@ -19,9 +19,10 @@ async function getapi(url) {
 	console.log ('b');
 	return ('hello world');
 }
+
 // Calling that async function
 console.log (api_url);
-text = await getapi(api_url);
+getapi(api_url);
 console.log (text);
 
 // Function to hide the loader
