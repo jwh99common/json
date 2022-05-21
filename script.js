@@ -5,19 +5,19 @@ const api_url =
 // Defining async function
 async function getapi(url) {
 	
+	console.log('a');
 	// Storing response
 	const response = await fetch(url);
 	
 	// Storing data in form of JSON
 	var data = await response.json();
-	console.log ('a');
-	console.log(data);
-	if (response) {
-		hideloader();
-	}
-	show(data);
 	console.log ('b');
-	return ('hello world');
+	
+	console.log(data);
+	
+	show(data);
+	console.log ('c');
+	
 }
 
 // Calling that async function
