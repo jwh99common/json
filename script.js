@@ -1,6 +1,6 @@
 // api url
 const api_url =
-	"https://employeedetails.free.beeceptor.com/my/api/path";
+	"test.json";
 
 // Defining async function
 async function getapi(url) {
